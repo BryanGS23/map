@@ -1,0 +1,25 @@
+name: map
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.1.1  # Dependencia para Google Maps
+  sqflite: ^2.0.0+3  # Dependencia para la base de datos SQLite
+  path_provider: ^2.0.8  # Dependencia para encontrar rutas de directorios
+  provider: ^6.1.3  # Dependencia para el manejo de estado (si lo necesitas)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0  # Paquete para linter y buenas prácticas de código
+
+flutter:
+  uses-material-design: true
